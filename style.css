@@ -1,0 +1,285 @@
+* {
+  box-sizing: border-box;
+}
+
+ .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+.container {
+  height:97vh;
+  position: relative;
+}
+
+.row {
+  
+ 
+  position: absolute;
+  top: 40%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 200px;
+  border-radius: 1.2rem;
+
+  
+
+  
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#draw{
+  border-bottom-left-radius: 0.5rem 0.5rem;
+  border-top-left-radius: 0.5rem 0.5rem;
+}
+
+#avatar{
+  margin-top: 1rem;
+  border-radius: 50%;
+}
+
+#shareicon{
+  color:white;
+  margin-top: 2rem;
+  float: right;
+  border-radius: 50%;
+  padding:0.5em;
+  background-color:hsl(217, 19%, 35%);
+  cursor: pointer;
+}
+
+
+
+.user{
+
+  display: inline-block;
+  
+}
+
+.username{
+
+  margin-left: 0.5rem;
+  display: inline-block;
+}
+
+
+.username h2{
+ margin-bottom: 1px;
+}
+.username p{
+  margin-top: 5px;
+  color:hsl(212, 23%, 69%)
+
+}
+
+
+.column1 {
+  float: left;
+  width: 30%;
+  height: 270px;
+  border-top-left-radius: 0.5rem 0.5rem;
+  border-bottom-left-radius: 0.5rem 0.5rem;
+}
+
+
+.column2 {
+  padding: 2rem 2rem 2rem 2rem;
+  float: left;
+  width: 60%;
+  height: 270px;
+  border-top-right-radius: 0.5rem 0.5rem;
+  border-bottom-right-radius: 0.5rem 0.5rem;
+  font-size:13px;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1rem;
+  background-color: green;
+}
+
+.column2 h2{
+  font-weight: 700;
+  font-size: 16px;
+  font-family: 'Manrope', sans-serif;
+  text-align: left;
+  color:hsl(214, 17%, 51%);
+  margin: 0.2rem;
+}
+
+.column2 p{
+  font-weight: 500;
+  font-size: 14px;
+  font-family: 'Manrope', sans-serif;
+  color:hsl(212, 23%, 69%);
+  text-align:justify;
+
+}
+
+#socialbtns{
+  margin-top: 7.8rem;
+  margin-left: 28rem;
+  margin-bottom: 0.5rem;
+  display: none;
+  position: absolute;
+  border-radius: 0.5rem;
+  width:16rem;
+  height:3.5rem;
+  background-color:hsl(217, 19%, 35%);
+  
+}
+
+#socialbtns::after{
+  content: ' ';
+  width: 0px; 
+  height: 0px; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top:15px solid hsl(217, 19%, 35%);
+  border-bottom: 10px solid transparent;
+  position: absolute;
+  top:100%;
+  left:49%;
+
+}
+
+#socialbtns p{
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  display: inline-block;
+  font-size: 12px;
+  padding-bottom: 0.5rem;
+  font-family: 'Manrope', sans-serif;
+  color:hsl(212, 23%, 69%);
+  padding-left:0.5rem;
+}
+#fb{
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+#tw{
+  padding-left: 0.5rem;
+  padding-right:0.5rem ;
+}
+
+#pin{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+#share{
+  display:none;
+}
+
+
+@media screen and (max-width: 375px) {
+
+  
+  
+  .container{
+    margin-top: -6rem;
+   
+     
+  }
+  .row{
+    margin: 11px;
+    position: fixed;
+  }
+  .column1{
+    width:44%;
+    margin-top: -7rem;
+    margin-left: 11rem;
+    
+  border-top-left-radius: 0.5rem 0.5rem;
+  border-top-right-radius: 0.5rem 0.5rem;
+
+  border-bottom-right-radius: 0rem;
+
+  }
+
+  #draw{
+
+     border-top-left-radius: 0.5rem 0.5rem;
+  border-top-right-radius: 0.5rem 0.5rem;
+
+   border-bottom-left-radius: 0rem;
+
+  }
+  
+  #socialbtns{
+
+   width: 20.7rem;
+    margin-top: 23.42rem;
+    margin-left: 11rem;
+  }
+
+  #share{
+    display: block;
+    margin-top:0.90rem;
+    margin-right: 1.5rem;
+    float: right;
+
+
+    color:white;
+  border-radius: 50%;
+  padding:0.5em;
+  background-color:hsl(212, 23%, 69%);
+  cursor: pointer;
+
+  }
+
+  #shareicon{
+    margin-top: 1.5rem;
+  }
+
+  
+
+  #socialbtns::after{
+    display: none;
+  }
+  .column2{
+   
+
+
+    margin-right: 0rem;
+    margin-top: -3rem;
+    margin-left: 10.99rem;
+    padding: 2rem 2rem 2rem 2rem;
+    width: 21.14rem;
+    height: 322px;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1rem;
+    border-top-right-radius: 0rem;
+    border-bottom-left-radius: 0.5rem 0.5rem;
+    border-bottom-right-radius: 0.5rem 0.5rem;
+   
+
+  }
+
+  .column2 h2{
+   
+
+    line-height: 1.8rem;
+    margin: -2px;
+  }
+
+  .column2 p{
+    line-height: 1.5rem;
+  }
+
+  .username h2{
+    margin-top: -4px;
+  }
+
+
+  
+  
+
+}

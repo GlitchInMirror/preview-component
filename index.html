@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" sizes="32x32" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Article preview component</title>
+
+
+</head>
+
+<body style=background:hsl(210,46%,95%)>
+
+
+  <div class="row">
+      <div class="column1">
+        <img id="draw" src="images/drawers.jpg" alt="drawers" height="270">
+      </div>
+      <div id="socialbtns">
+        <p>share</p>
+        
+        <img id="fb" src="images/icon-facebook.svg" alt="fb">
+        <img id="tw" src="images/icon-twitter.svg" alt="tw">
+        <img id="pin" src="images/icon-pinterest.svg" alt="pin">
+        <img onclick="myFunction()" id="share" src="images/icon-share.svg">
+        
+      </div>
+
+      <div class="column2" style="background-color:#fff;">
+          <h2>Shift the overall look and feel by</h2>
+            <h2>adding these wonderful touches to</h2>
+            <h2>furniture in your home</h2>
+          <p>
+            Ever been in a room and felt like something
+            was missing? Perhaps it felt slightly bare and uninviting.
+            I've got some simple tips to help you make any room feel
+            complete.
+          </p>
+
+       
+        <div class="user">
+          <img id="avatar" src="images/avatar-michelle.jpg" alt="avatar" height="39">
+        </div>
+
+        <div class="username">
+          <h2>Michelle Appleton</h2>
+          <p>28 Jun 2020</p>
+        </div>
+
+      
+       <img onclick="myFunction()" id="shareicon" alt="icon" src="images/icon-share.svg">
+       
+      </div>
+  </div>
+
+
+
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+  
+</div>
+<script>
+
+
+
+function myFunction() {
+
+  var x = document.getElementById("socialbtns");
+  if(x.style.display === "none"){
+    x.style.display = "block";
+  }
+  else{
+    x.style.display = "none";
+  }
+}
+
+</script>
+
+</body>
+
+</html>

@@ -283,3 +283,112 @@
   
 
 }
+
+
+
+/* @media  screen and (min-width: 600px) {    
+
+  
+  
+  .container{
+    margin-top: -6rem;
+   
+     
+  }
+  .row{
+    margin: 11px;
+    position: fixed;
+  }
+  .column1{
+    width:44%;
+    margin-top: -7rem;
+    margin-left: 11rem;
+    
+  border-top-left-radius: 0.5rem 0.5rem;
+  border-top-right-radius: 0.5rem 0.5rem;
+
+  border-bottom-right-radius: 0rem;
+
+  }
+
+  #draw{
+
+     border-top-left-radius: 0.5rem 0.5rem;
+  border-top-right-radius: 0.5rem 0.5rem;
+
+   border-bottom-left-radius: 0rem;
+
+  }
+  
+  #socialbtns{
+
+   width: 20.7rem;
+    margin-top: 23.42rem;
+    margin-left: 11rem;
+  }
+
+  #share{
+    display: block;
+    margin-top:0.90rem;
+    margin-right: 1.5rem;
+    float: right;
+
+
+    color:white;
+  border-radius: 50%;
+  padding:0.5em;
+  background-color:hsl(212, 23%, 69%);
+  cursor: pointer;
+
+  }
+
+  #shareicon{
+    margin-top: 1.5rem;
+  }
+
+  
+
+  #socialbtns::after{
+    display: none;
+  }
+  .column2{
+   
+
+
+    margin-right: 0rem;
+    margin-top: -3rem;
+    margin-left: 10.99rem;
+    padding: 2rem 2rem 2rem 2rem;
+    width: 21.14rem;
+    height: 322px;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1rem;
+    border-top-right-radius: 0rem;
+    border-bottom-left-radius: 0.5rem 0.5rem;
+    border-bottom-right-radius: 0.5rem 0.5rem;
+   
+
+  }
+
+  .column2 h2{
+   
+
+    line-height: 1.8rem;
+    margin: -2px;
+  }
+
+  .column2 p{
+    line-height: 1.5rem;
+  }
+
+  .username h2{
+    margin-top: -4px;
+  }
+
+
+  
+  
+
+} */
